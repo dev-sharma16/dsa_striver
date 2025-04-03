@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Solution {
-    // Function to count the frequency of all elements from 1 to N in the array.
+    
     public List<Integer> frequencyCount(int[] arr) {
         int n = arr.length;
         
