@@ -28,13 +28,13 @@ public class BubbleSort {
 
     public static void main(String[] args){
          
-        BubbleSort sorter = new BubbleSort();
+        // BubbleSort sorter = new BubbleSort();
 
         int[] arr = {4, 1, 3, 9, 7};
 
         System.out.println("Before sorting: " + Arrays.toString(arr));
         
-        sorter.bubbleSort(arr);
+        BubbleSort.bubbleSort(arr);
         
         System.out.println("After sorting: " + Arrays.toString(arr));
     }
